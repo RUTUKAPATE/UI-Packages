@@ -1,16 +1,16 @@
 -- import: fastn
 
--- fastn.package: rutukapate.github.io/ui-packages
-favicon: /-/rutukapate.github.io/ui-packages/favicon.ico
+-- fastn.package: rutukapate.github.io/UI-Packages
+favicon: /-/rutukapate.github.io/UI-Packages/favicon.ico
 
 -- fastn.dependency: fastn-community.github.io/doc-site as doc-site
 -- fastn.dependency: fastn-community.github.io/footer
 -- fastn.dependency: fastn-community.github.io/roboto-typography
--- fastn.dependency: rutukapate.github.io/ui-packages as package
+-- fastn.dependency: rutukapate.github.io/UI-Packages as package
 
 -- fastn.auto-import: package
--- fastn.auto-import: rutukapate.github.io/ui-packages/FASTN/ds
--- fastn.auto-import: rutukapate.github.io/ui-packages/assets
+-- fastn.auto-import: rutukapate.github.io/UI-Packages/FASTN/ds
+-- fastn.auto-import: rutukapate.github.io/UI-Packages/assets
 -- fastn.auto-import: doc-site
 
 -- fastn.sitemap:
