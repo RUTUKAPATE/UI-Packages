@@ -1,0 +1,32 @@
+-- import: package/assets
+
+-- component panel:
+string link1:
+string link2:
+string link3:
+
+-- ftd.column:
+width: fill-container
+padding-left.percent: 2
+padding-right.percent: 2
+
+-- ftd.image: $assets.files.images.bg-line.svg
+height.fixed.rem: 30
+padding-left.rem: 1.5
+padding-bottom.rem: 3
+
+-- ftd.image: $assets.files.images.Discord.svg 
+height.fixed.rem: 3
+link: $panel.link1
+
+-- ftd.image: $assets.files.images.Linkedin.svg
+height.fixed.rem: 3
+link: $panel.link2
+
+-- ftd.image: $assets.files.images.Github.svg
+height.fixed.rem: 3
+link: $panel.link3
+
+-- end: ftd.column
+
+-- end: panel

@@ -1,0 +1,115 @@
+-- import: package/assets
+
+-- component contact:
+body body:
+string discordlink:
+string githublink:
+string linkedinlink:
+boolean $hover1: false
+boolean $hover2: false
+boolean $hover3: false
+
+-- ftd.column:
+padding-left.percent: 5
+padding-right.percent: 5
+
+-- ftd.row:
+width: fill-container
+height.fixed.px: 100 
+
+-- ftd.text: Contacts
+color: white
+region: h1
+display: inline
+align-self: center
+padding-vertical.px: 10
+
+-- ftd.image: $assets.files.images.bg-line2.svg
+align-self: center
+padding-left.percent: 2
+width.fixed.percent: 70
+
+-- end: ftd.row
+
+-- ftd.row:
+width: fill-container
+height: hug-content
+padding.px: 20
+spacing.fixed.rem: 20
+
+-- ftd.text: $contact.body
+color: #ABB2BF
+region: h2
+width: fill-container
+
+-- ftd.column:
+width.fixed.percent: 15
+border-width.px: 1
+border-color: #ABB2BF
+spacing.fixed.px: 20
+height: hug-content
+padding.px: 20
+
+-- ftd.text: Message me here
+color: white
+region: h3
+display: inline
+
+-- ftd.row:
+spacing.fixed.px: 15
+
+-- ftd.image: $assets.files.images.Discord.svg
+alt: Image can't be displayed
+height.fixed.rem: 3
+
+-- ftd.text: Discord
+color: #ABB2BF
+align-self: center
+link: $contact.discordlink
+color if {contact.hover1}: #C778DD
+$on-mouse-enter$: $ftd.set-bool($a = $contact.hover1, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $contact.hover1, v = false)
+
+-- end: ftd.row
+
+-- ftd.row:
+spacing.fixed.px: 15
+
+-- ftd.image: $assets.files.images.Github.svg
+alt: Image can't be displayed
+height.fixed.rem: 3
+
+-- ftd.text: Github
+color: #ABB2BF
+align-self: center
+link: $contact.githublink
+color if {contact.hover2}: #C778DD
+$on-mouse-enter$: $ftd.set-bool($a = $contact.hover2, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $contact.hover2, v = false)
+
+-- end: ftd.row
+
+-- ftd.row:
+spacing.fixed.px: 15
+
+-- ftd.image: $assets.files.images.Linkedin.svg
+alt: Image can't be displayed
+height.fixed.rem: 3
+
+-- ftd.text: LinkedIn
+color: #ABB2BF
+align-self: center
+link: $contact.linkedinlink
+color if {contact.hover3}: #C778DD
+$on-mouse-enter$: $ftd.set-bool($a = $contact.hover3, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $contact.hover3, v = false)
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: contact

@@ -1,0 +1,78 @@
+-- import: package/assets
+
+-- component footer:
+caption name:
+body body:
+string discordlink:
+string githublink:
+string linkedinlink:
+ftd.image-src logo: 
+
+-- ftd.column:
+width: fill-container
+height: hug-content
+
+-- ftd.image: $assets.files.images.footerline.svg
+width: fill-container
+margin-top.rem: 4
+margin-bottom.rem: 1
+
+-- ftd.row:
+width: fill-container
+height: hug-content 
+region: h3
+padding.px: 20
+
+-- ftd.image:
+src: $footer.logo
+alt: Logo can't be displayed 
+align-self: center
+margin-left.percent: 2
+margin-right.percent: 1
+
+-- ftd.text: $footer.name
+color: white
+align-self: center
+
+-- ftd.column:
+margin-left.percent: 75
+
+-- ftd.text: Media
+region: h2
+color: white
+padding-top.px: 20
+
+-- ftd.row:
+spacing.fixed.percent: 10
+padding-top.rem: 1
+
+-- ftd.image: $assets.files.images.Discord.svg
+link: $footer.discordlink
+
+-- ftd.image: $assets.files.images.Github.svg
+link: $footer.githublink
+
+-- ftd.image: $assets.files.images.Linkedin.svg
+link: $footer.linkedinlink
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- ftd.text: $footer.body
+padding.px: 20
+color: #ABB2BF
+region: h3
+margin-left.percent: 2
+
+-- ftd.text: © Copyright 2022. Made by Elias
+padding.px: 30
+color: #ABB2BF
+text-align: center
+width: fill-container
+
+-- end: ftd.column
+
+-- end: footer

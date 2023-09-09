@@ -1,0 +1,73 @@
+-- import: package/assets
+
+-- component navbar:
+caption name:
+string homelink:
+string aboutlink:
+string contactmelink:
+string worklink:
+boolean $hover-home: false
+boolean $hover-about: false
+boolean $hover-contact: false
+boolean $hover-work: false
+ftd.image-src logo: 
+
+-- ftd.row:
+margin.px: 0
+padding.px: 20
+width: fill-container
+height: hug-content 
+region: h3
+
+-- ftd.image:
+src: $navbar.logo
+alt: Logo can't be displayed 
+align-self: center
+margin-left.percent: 2
+margin-right.percent: 1
+
+-- ftd.text: $navbar.name
+color: white
+padding-vertical.px: 12
+margin-right.percent: 64
+
+
+-- ftd.text: Home
+color: white
+padding-vertical.px: 12
+padding-horizontal.px: 30
+link: $navbar.homelink 
+color if {navbar.hover-home}: #C778DD
+$on-mouse-enter$: $ftd.set-bool($a = $navbar.hover-home, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $navbar.hover-home, v = false)
+
+-- ftd.text: About
+color: white
+padding-vertical.px: 12
+padding-horizontal.px: 30
+color if {navbar.hover-about}: #C778DD
+link: $navbar.aboutlink
+$on-mouse-enter$: $ftd.set-bool($a = $navbar.hover-about, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $navbar.hover-about, v = false)
+
+-- ftd.text: Contact Me
+color: white
+padding-vertical.px: 12
+padding-horizontal.px: 30
+color if {navbar.hover-contact}: #C778DD
+$on-mouse-enter$: $ftd.set-bool($a = $navbar.hover-contact, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $navbar.hover-contact, v = false)    
+link: $navbar.contactmelink
+
+-- ftd.text: Work
+color: white
+padding-vertical.px: 12
+padding-horizontal.px: 30
+color if {navbar.hover-work}: #C778DD
+$on-mouse-enter$: $ftd.set-bool($a = $navbar.hover-work, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $navbar.hover-work, v = false)    
+link: $navbar.worklink
+
+-- end: ftd.row
+
+-- end: navbar
