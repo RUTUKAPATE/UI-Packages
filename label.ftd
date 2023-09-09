@@ -1,0 +1,29 @@
+-- import: package/assets
+
+-- component quote:
+string quote:
+optional ftd.background-image bg-image:
+
+-- ftd.column:
+background.image: $bg-image
+width: fill-container
+height.fixed.px: 150
+align-self: center
+
+-- ftd.text: $quote.quote
+style: bold
+align-self: center
+text-align: center
+color: white
+margin-top.px: 60
+region: h2
+
+-- end: ftd.column
+
+-- end: quote
+
+-- ftd.background-image bg-image:
+alt: Image not found 
+repeat: no-repeat 
+position: center
+src: $assets.files.images.quote.svg

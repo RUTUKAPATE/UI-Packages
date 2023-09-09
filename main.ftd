@@ -1,0 +1,98 @@
+-- import: package/assets
+
+-- component body:
+caption title:
+body detail:
+string link:
+ftd.image-src image:
+string label:
+optional ftd.background-image bg-image:
+boolean $hover: false
+
+-- ftd.column:
+padding-vertical.rem: 10
+padding-horizontal.rem: 5
+width: fill-container
+
+-- ftd.row:
+spacing.fixed.percent: 20 
+width: fill-container
+
+-- ftd.column:
+width: fill-container
+padding.px: 20
+
+-- ftd.text: $body.title
+text-align: start
+width: fill-container 
+region: h1
+padding-top.rem : 12
+color: #C778DD
+
+-- ftd.text: $body.detail
+text-align: start
+region: h2
+padding-top.rem : 2
+color: #ABB2BF
+height: hug-content
+
+-- ftd.text: Contact Me!!
+border-color: #C778DD
+border-width.px: 2
+border-radius.px: 6
+color: white
+margin-top.px: 30
+padding.rem: 1
+color if {body.hover}: #C778DD
+link: $body.link
+$on-mouse-enter$: $ftd.set-bool($a = $body.hover, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $body.hover, v = false)
+
+
+-- end: ftd.column
+
+
+-- ftd.column:
+background.image: $bg-image
+width: fill-container
+height.fixed.px: 500
+padding.px: 20
+
+-- ftd.image: $body.image
+alt: Image can't be displayed 
+height.fixed.rem: 30.8
+z-index: 1 
+anchor: parent
+
+-- ftd.image: $assets.files.images.Dots.svg
+height.fixed.rem: 10.8
+z-index: 2 
+anchor: parent
+margin-left.rem: 29
+margin-top.rem: 17
+
+-- ftd.text: $body.label
+margin-top.rem: 31
+padding.px: 15
+style: bold
+width.fixed.px: 550
+text-align: center
+border-width.px: 2
+color: #9BA5B7
+z-index: 3 
+anchor: parent
+region: h3
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: body
+
+-- ftd.background-image bg-image:
+alt: Image not found 
+repeat: no-repeat 
+position: left
+src: $assets.files.images.outlinebg.svg

@@ -1,0 +1,199 @@
+-- import: package/assets
+
+-- component skills:
+string languages:
+string databases:
+string other:
+string tools:
+string frameworks:
+
+-- ftd.column:
+padding-left.percent: 5
+padding-right.percent: 5
+
+-- ftd.row:
+width: fill-container
+height.fixed.px: 100 
+
+-- ftd.text: Skills
+color: white
+region: h1
+display: inline
+align-self: center
+padding-vertical.px: 10
+
+-- ftd.image: $assets.files.images.bg-line2.svg
+align-self: center
+padding-left.percent: 2
+width.fixed.percent: 70
+
+-- end: ftd.row
+
+-- ftd.row:
+width: fill-container
+height: hug-content
+padding-left.rem: 2
+spacing.fixed.percent: 15
+
+-- ftd.image:
+src: $assets.files.images.bgimage3.png
+width.fixed.percent: 50
+padding-bottom.rem: 10
+
+-- ftd.row:
+padding-top.rem: 3
+
+-- ftd.column:
+width: fill-container
+height: hug-content
+padding.px: 20
+
+-- ftd.text: Languages
+color: white
+region: h3
+display: inline
+width.fixed.percent: 100
+border-width.px: 1
+border-color: #ABB2BF
+padding.px: 10
+
+-- ftd.text: $skills.languages
+color: #ABB2BF
+region: h4
+display: inline
+width.fixed.percent: 100
+border-left-width.px: 1
+border-right-width.px: 1
+border-bottom-width.px: 1
+border-color: #ABB2BF
+padding.px: 10
+
+-- end: ftd.column
+
+-- ftd.column:
+width: fill-container
+height: hug-content
+padding.px: 20
+
+-- ftd.column:
+width: fill-container
+height: hug-content
+
+-- ftd.text: Databases
+color: white
+region: h3
+display: inline
+width.fixed.percent: 100
+border-width.px: 1
+border-color: #ABB2BF
+padding.px: 10
+
+-- ftd.text: $skills.databases
+color: #ABB2BF
+region: h4
+display: inline
+width.fixed.percent: 100
+border-left-width.px: 1
+border-right-width.px: 1
+border-bottom-width.px: 1
+border-color: #ABB2BF
+padding.px: 10
+
+-- end: ftd.column
+
+-- ftd.column:
+width: fill-container
+height: hug-content
+padding-top.px: 20
+
+-- ftd.text: Other
+color: white
+region: h3
+display: inline
+width.fixed.percent: 100
+border-width.px: 1
+border-color: #ABB2BF
+padding.px: 10
+
+-- ftd.text: $skills.other
+color: #ABB2BF
+region: h4
+display: inline
+width.fixed.percent: 100
+border-left-width.px: 1
+border-right-width.px: 1
+border-bottom-width.px: 1
+border-color: #ABB2BF
+padding.px: 10
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- ftd.column:
+width: fill-container
+height: hug-content
+padding.px: 20
+
+-- ftd.column:
+width: fill-container
+height: hug-content
+
+-- ftd.text: Tools
+color: white
+region: h3
+display: inline
+width.fixed.percent: 100
+border-width.px: 1
+border-color: #ABB2BF
+padding.px: 10
+
+-- ftd.text: $skills.tools
+color: #ABB2BF
+region: h4
+display: inline
+width.fixed.percent: 100
+border-left-width.px: 1
+border-right-width.px: 1
+border-bottom-width.px: 1
+border-color: #ABB2BF
+padding.px: 10
+
+-- end: ftd.column
+
+-- ftd.column:
+width: fill-container
+height: hug-content
+padding-top.px: 20
+
+-- ftd.text: Frameworks
+color: white
+region: h3
+display: inline
+width.fixed.percent: 100
+border-width.px: 1
+border-color: #ABB2BF
+padding.px: 10
+
+-- ftd.text: $skills.frameworks
+color: #ABB2BF
+region: h4
+display: inline
+width.fixed.percent: 100
+border-left-width.px: 1
+border-right-width.px: 1
+border-bottom-width.px: 1
+border-color: #ABB2BF
+padding.px: 10
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: skills

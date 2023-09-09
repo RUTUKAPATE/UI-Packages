@@ -1,0 +1,101 @@
+-- import: package/assets
+
+-- component aboutme:
+caption title:
+body detail:
+string link:
+ftd.image-src image:
+optional ftd.background-image bg-image:
+boolean $hover: false
+
+-- ftd.column:
+padding-left.percent: 5
+padding-right.percent: 5
+
+-- ftd.row:
+width: fill-container
+height.fixed.px: 100 
+
+-- ftd.text: About Me
+color: white
+region: h1
+display: inline
+align-self: center
+padding-vertical.px: 10
+
+-- ftd.image: $assets.files.images.bg-line2.svg
+align-self: center
+padding-left.percent: 2
+width.fixed.percent: 70
+
+-- end: ftd.row
+
+-- ftd.row:
+width: fill-container
+height: hug-content
+padding-left.rem: 2
+spacing.fixed.percent: 25
+
+-- ftd.column:
+width: fill-container
+padding.px: 20
+padding-bottom.rem : 5
+padding-top.rem : 5
+
+-- ftd.text: $aboutme.title
+text-align: start
+width: fill-container 
+region: h1
+color: #C778DD
+
+-- ftd.text: $aboutme.detail
+text-align: start
+region: h2
+padding-top.rem : 2
+color: #ABB2BF
+height: hug-content
+
+-- ftd.text: Read More ->
+border-color: #C778DD
+border-width.px: 2
+border-radius.px: 6
+color: white
+margin-top.px: 30
+padding.rem: 1
+color if {aboutme.hover}: #C778DD
+link: $aboutme.link
+$on-mouse-enter$: $ftd.set-bool($a = $aboutme.hover, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $aboutme.hover, v = false)
+
+-- end: ftd.column
+
+-- ftd.column:
+width: fill-container
+padding.px: 20
+
+-- ftd.image: $assets.files.images.Dots.svg
+height.fixed.rem: 10.8
+z-index: 1 
+anchor: parent
+
+-- ftd.image: $aboutme.image
+alt: Image can't be displayed 
+height.fixed.rem: 30.8
+z-index: 2 
+anchor: parent
+margin-left.rem: 5
+
+-- ftd.image: $assets.files.images.Dots.svg
+height.fixed.rem: 10.8
+z-index: 2 
+anchor: parent
+margin-left.rem: 20
+margin-top.rem: 20
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: aboutme

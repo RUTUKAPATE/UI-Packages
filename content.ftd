@@ -1,0 +1,245 @@
+-- import: package/assets
+
+-- component project:
+string allproject:
+ftd.image-src project1img1:
+ftd.image-src project2img2:
+ftd.image-src project3img3:
+string label1:
+string heading1:
+string subheading1:
+string label2:
+string heading2:
+string subheading2:
+string label3:
+string heading3:
+string subheading3:
+string project1:
+string project2:
+string project3:
+string live1:
+string cached:
+string live2:
+string live3:
+boolean $hover: false
+boolean $hover-cached: false
+boolean $hover-live1: false
+boolean $hover-live2: false
+boolean $hover-live3: false
+
+-- ftd.column:
+
+-- ftd.row:
+width: fill-container
+height.fixed.px: 100 
+
+-- ftd.text: Projects
+color: white
+padding-left.percent: 5
+region: h1
+display: inline
+align-self: center
+padding-vertical.px: 10
+
+-- ftd.image: $assets.files.images.bg-line2.svg
+align-self: center
+padding-left.percent: 2
+width.fixed.percent: 70
+
+-- ftd.text: View All ~~>
+border-color: #C778DD
+border-width.px: 2
+border-radius.px: 6
+margin-left.percent: 5
+margin-right.percent: 5
+color: white
+align-self: center
+padding.rem: 1
+color if {project.hover}: #C778DD
+link: $project.allproject
+$on-mouse-enter$: $ftd.set-bool($a = $project.hover, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $project.hover, v = false)
+
+-- end: ftd.row
+
+-- ftd.row:
+padding-vertical.vh: 10
+
+-- ftd.column:
+margin-horizontal.rem: 10
+width.fixed.px: 334
+height: hug-content
+
+-- ftd.image: 
+src: $project.project1img1
+border-width.px: 1
+border-color: #ABB2BF
+width: fill-container
+link: $project.project1
+
+-- ftd.text: $project.label1
+color: #ABB2BF
+align-self: center
+padding.px: 10
+border-width.px: 1
+border-color: #ABB2BF
+width: fill-container
+
+
+-- ftd.column:
+width: fill-container
+border-width.px: 1
+border-color: #ABB2BF
+spacing.fixed.px: 20
+height: hug-content
+padding.px: 20
+
+-- ftd.text: $project.heading1
+color: white
+region: h1
+
+-- ftd.text: $project.subheading1 
+color: #ABB2BF
+region: h3
+
+-- ftd.row:
+spacing.fixed.px: 15
+
+-- ftd.text: Live <~>
+border-color: #C778DD
+border-width.px: 2
+color: white
+align-self: start
+padding.rem: 1
+link: $project.live1
+color if {project.hover-live1}: #C778DD
+$on-mouse-enter$: $ftd.set-bool($a = $project.hover-live1, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $project.hover-live1, v = false)
+
+-- ftd.text: Cached >
+border-color: #ABB2BF
+border-width.px: 2
+color: #ABB2BF
+align-self: start
+padding.rem: 1
+link: $project.cached
+color if {project.hover-cached}: white
+$on-mouse-enter$: $ftd.set-bool($a = $project.hover-cached, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $project.hover-cached, v = false)
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- ftd.column:
+margin-horizontal.rem: 10
+width.fixed.px: 334
+height: hug-content
+
+-- ftd.image: 
+src: $project.project2img2
+border-width.px: 1
+border-color: #ABB2BF
+width: fill-container
+link: $project.project2
+
+-- ftd.text: $project.label2
+color: #ABB2BF
+align-self: center
+padding.px: 10
+border-width.px: 1
+border-color: #ABB2BF
+width: fill-container
+
+
+-- ftd.column:
+width: fill-container
+border-width.px: 1
+border-color: #ABB2BF
+spacing.fixed.px: 20
+height: hug-content
+padding.px: 20
+
+-- ftd.text: $project.heading2
+color: white
+region: h1
+
+-- ftd.text: $project.subheading2 
+color: #ABB2BF
+region: h3
+
+
+-- ftd.text: Live <~>
+border-color: #C778DD
+border-width.px: 2
+color: white
+align-self: start
+padding.rem: 1
+link: $project.live2
+color if {project.hover-live2}: #C778DD
+$on-mouse-enter$: $ftd.set-bool($a = $project.hover-live2, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $project.hover-live2, v = false)
+
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- ftd.column:
+margin-horizontal.rem: 10
+width.fixed.px: 334
+height: hug-content
+
+-- ftd.image: 
+src: $project.project3img3
+border-width.px: 1
+border-color: #ABB2BF
+width: fill-container
+link: $project.project3
+
+-- ftd.text: $project.label3
+color: #ABB2BF
+align-self: center
+padding.px: 10
+border-width.px: 1
+border-color: #ABB2BF
+width: fill-container
+
+-- ftd.column:
+width: fill-container
+border-width.px: 1
+border-color: #ABB2BF
+spacing.fixed.px: 20
+height: hug-content
+padding.px: 20
+
+-- ftd.text: $project.heading3
+color: white
+region: h1
+
+-- ftd.text: $project.subheading3
+color: #ABB2BF
+region: h3
+
+-- ftd.text: Live <~>
+border-color: #C778DD
+border-width.px: 2
+color: white
+align-self: start
+padding.rem: 1
+link: $project.live3
+color if {project.hover-live3}: #C778DD
+$on-mouse-enter$: $ftd.set-bool($a = $project.hover-live3, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $project.hover-live3, v = false)
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: project
