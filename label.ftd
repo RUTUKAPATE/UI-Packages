@@ -1,5 +1,3 @@
--- import: package/assets
-
 -- component quote:
 string quote:
 optional ftd.background-image bg-image:
