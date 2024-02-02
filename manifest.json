@@ -2,8 +2,8 @@
   "files": {
     "FASTN.ftd": {
       "name": "FASTN.ftd",
-      "checksum": "5A5E48A029155AC7D39E048EAE9BA3821B8BFE93E19688AD80D1AD80FBEBD86E",
-      "size": 612
+      "checksum": "33FF0C722A32EB9D74B9EDA74D380857E48A272814FBEABA5733C4BCA593156B",
+      "size": 546
     },
     "FASTN/ds.ftd": {
       "name": "FASTN/ds.ftd",
@@ -32,13 +32,13 @@
     },
     "contactinfo.ftd": {
       "name": "contactinfo.ftd",
-      "checksum": "7EBBA5017475FC4BCBB727F2FE897B33F9603826B0B7225B47D74F2345A49E63",
-      "size": 2186
+      "checksum": "3ED9E3687FD8E027FD738FFB43F170F2BEE6C7BFE49043B7489DD3CBEDE4928F",
+      "size": 2162
     },
     "content.ftd": {
       "name": "content.ftd",
-      "checksum": "6C43F7DF6ACB3715EB4E85A6F2F7532270A3E31A3986004993D3AB4BA24B62FF",
-      "size": 4586
+      "checksum": "D25DF8E044016A37BC326FEDF045E8A12179AB5171946EBCC564A442741868C6",
+      "size": 4561
     },
     "favicon.ico": {
       "name": "favicon.ico",
@@ -117,33 +117,33 @@
     },
     "label.ftd": {
       "name": "label.ftd",
-      "checksum": "0532DC765A1120B9F4632CF3278811D6A46FAB23B63DD311F2B94515B22725ED",
-      "size": 490
+      "checksum": "F79565D0F653BD5DC52370CC6224DDDF822B79E6CA2691DBCE6A5AB9CFD1CE5C",
+      "size": 463
     },
     "leftsidebar.ftd": {
       "name": "leftsidebar.ftd",
-      "checksum": "385BB0BC8715259F47E6D32E5ACF8FE294EB799762B89FE4D991B321265E7EA4",
-      "size": 585
+      "checksum": "95DDF351BFB1FF155A43D6C7C2853754E216FACBC478FEB7B30674499D7B26D9",
+      "size": 561
     },
     "main.ftd": {
       "name": "main.ftd",
-      "checksum": "8A585EC4DA8B670DCF40EC447BD026E6ECC135944EEACD9F10C1CF625190E527",
-      "size": 1667
+      "checksum": "679781E8EDCCC94FFABA2D267FA7FF80F87935A36E112B006F8FB48395FEBEDE",
+      "size": 1642
     },
     "me.ftd": {
       "name": "me.ftd",
-      "checksum": "F96D91DAC924CFECF7A5A60F22DFEEAA614CB9373009EA8FE39B19D46D006E30",
-      "size": 1762
+      "checksum": "247638F9F20C45E6ED234354A45AD9D72F1C59C929104BA87182A155D506DEF0",
+      "size": 1737
     },
     "navfooter.ftd": {
       "name": "navfooter.ftd",
-      "checksum": "A5558515820C60F62F6D34127C60440C4D2D29F14E27B44A4C9C2181ABA3F4E9",
-      "size": 1275
+      "checksum": "FD03FF00E20E1A092C1C22AF484262700F581E0199FEEE2B42CE1A9FD2634403",
+      "size": 1251
     },
     "navheader.ftd": {
       "name": "navheader.ftd",
-      "checksum": "40FFA4E5E66F1D04BFFAAF3D0148C726084B1D6244FDB825B052D444084CC66E",
-      "size": 1761
+      "checksum": "00045B8665AE4DD9010F18079D57D47A6EA9F745582796C08F3C4372E7D60A3E",
+      "size": 1737
     },
     "sidebar.ftd": {
       "name": "sidebar.ftd",
@@ -152,10 +152,10 @@
     },
     "work.ftd": {
       "name": "work.ftd",
-      "checksum": "ED9D4947B9C8B8258845377B0EF20E2EECEC0DE83EE2BF17C9F277646AB293E3",
-      "size": 3188
+      "checksum": "06B51E0A029798CC1D0BE9AD9F51DBCA097CF8C2EE4B5E7F21344A12B44588A4",
+      "size": 3164
     }
   },
   "zip_url": "https://codeload.github.com/rutukapate/UI-Packages/zip/refs/heads/main",
-  "checksum": "A70E7AD8DBA17FDD1A8543E0FBB1B1F9D11829A47C185E10699CC4A723540A36"
+  "checksum": "78DC38D4C6E5FAA12BC56A48F29460DBB535B9C2CA4008B143591409F06DFC29"
 }

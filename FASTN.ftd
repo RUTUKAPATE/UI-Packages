@@ -7,7 +7,6 @@ favicon: /-/rutukapate.github.io/UI-Packages/favicon.ico
 -- fastn.dependency: fastn-community.github.io/footer
 -- fastn.dependency: fastn-community.github.io/roboto-typography
 
--- fastn.auto-import: rutukapate.github.io/UI-Packages as package
 -- fastn.auto-import: rutukapate.github.io/UI-Packages/FASTN/ds
 -- fastn.auto-import: rutukapate.github.io/UI-Packages/assets
 -- fastn.auto-import: doc-site
